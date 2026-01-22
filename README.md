@@ -32,5 +32,3 @@ https://portfolio-ten-rose-59947qvj4d.vercel.app/
 - **Vercel** – Deployment and hosting
 
 ---
-
-## 📁 Folder Structure
