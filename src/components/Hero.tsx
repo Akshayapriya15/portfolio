@@ -33,7 +33,7 @@ export default function Hero() {
             Get In Touch
           </button>
           <a
-            href="Akshayapriya S A_resume.pdf"
+            href="resume.pdf"
             download
             className="px-8 py-4 bg-white text-slate-700 rounded-lg font-semibold border-2 border-slate-300 hover:border-blue-600 hover:text-blue-600 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200 flex items-center gap-2"
           >

@@ -56,7 +56,7 @@ export default function About() {
             </p>
             <div className="pt-4">
               <a
-                href="Akshayapriya S A_resume.pdf"
+                href="resume.pdf"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200"
               >
