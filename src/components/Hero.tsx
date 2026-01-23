@@ -11,10 +11,10 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8 animate-fade-in">
           <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white text-5xl font-bold shadow-2xl">
-            YN
+            SA
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-slate-800 mb-4">
-            Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Akshayapriya S A</span>
+            Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Akshayapriya</span>
           </h1>
           <p className="text-xl md:text-2xl text-slate-600 mb-8">
             Full Stack Developer | Designer | Problem Solver
@@ -33,7 +33,7 @@ export default function Hero() {
             Get In Touch
           </button>
           <a
-            href="/resume.pdf"
+            href="Akshayapriya S A_resume.pdf"
             download
             className="px-8 py-4 bg-white text-slate-700 rounded-lg font-semibold border-2 border-slate-300 hover:border-blue-600 hover:text-blue-600 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200 flex items-center gap-2"
           >

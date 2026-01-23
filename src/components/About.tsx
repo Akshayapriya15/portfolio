@@ -1,4 +1,4 @@
-import { Code2, Palette, Rocket } from 'lucide-react';
+import { Code2, Palette, Rocket, Download } from 'lucide-react';
 
 export default function About() {
   const highlights = [
@@ -30,42 +30,39 @@ export default function About() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          <div className="space-y-6">
-            <p className="text-lg text-slate-600 leading-relaxed">
-              I'm a passionate developer with a keen eye for design and a love for creating
-              seamless digital experiences. With expertise in modern web technologies, I bring
-              ideas to life through code.
-            </p>
-            <p className="text-lg text-slate-600 leading-relaxed">
-              Whether it's building responsive websites, crafting intuitive user interfaces,
-              or solving complex problems, I approach every project with dedication and attention
-              to detail.
-            </p>
-            <p className="text-lg text-slate-600 leading-relaxed">
-              I'm always eager to learn new technologies and take on challenging projects that
-              push the boundaries of what's possible on the web.
-            </p>
+          <div className="relative order-2 md:order-1">
+            <div className="w-80 h-96 mx-auto">
+              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-blue-500 to-cyan-500 blur-2xl opacity-60"></div>
+              <img
+                src="aki.jpg"
+                alt="Profile"
+                className="w-full h-full rounded-3xl object-cover shadow-2xl relative z-10 border-4 border-white"
+              />
+            </div>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-6">Quick Facts</h3>
-            <div className="space-y-4">
-              <div className="flex justify-between items-center border-b border-white/20 pb-3">
-                <span className="font-medium">Location</span>
-                <span>Your City, Country</span>
-              </div>
-              <div className="flex justify-between items-center border-b border-white/20 pb-3">
-                <span className="font-medium">Experience</span>
-                <span>X+ Years</span>
-              </div>
-              <div className="flex justify-between items-center border-b border-white/20 pb-3">
-                <span className="font-medium">Projects</span>
-                <span>XX+ Completed</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="font-medium">Availability</span>
-                <span className="px-3 py-1 bg-white/20 rounded-full text-sm">Available</span>
-              </div>
+          <div className="space-y-6 order-1 md:order-2">
+            <h3 className="text-3xl font-bold text-slate-800 mb-4">
+              Backend Development Is My Passion
+            </h3>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              I am a Computer Science Engineering student with a strong interest in software development and backend technologies. I am passionate about building efficient, scalable applications and continuously improving my technical skills.
+            </p>
+            <p className="text-lg text-slate-600 leading-relaxed">
+             I have a solid foundation in Core Java, Object-Oriented Programming, Data Structures & Algorithms, and MySQL. I have completed internships in Java Full Stack Development and Web Development, where I gained hands-on experience in backend logic, database operations, and frontend fundamentals using HTML, CSS, and JavaScript.
+            </p>
+            <p className="text-lg text-slate-600 leading-relaxed">
+             Currently, I am enhancing my skills in Spring Boot and the Java Collections Framework, and working on mini-projects to apply my knowledge to real-world scenarios. I am familiar with Git and GitHub for version control and actively practice problem-solving to strengthen my logical thinking.
+            </p>
+            <div className="pt-4">
+              <a
+                href="Akshayapriya S A_resume.pdf"
+                download
+                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-200"
+              >
+                <Download size={20} />
+                Download CV
+              </a>
             </div>
           </div>
         </div>
