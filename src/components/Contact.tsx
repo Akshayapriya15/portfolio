@@ -82,7 +82,7 @@ export default function Contact() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/916380651142"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 flex items-center justify-center gap-2"
@@ -91,7 +91,7 @@ export default function Contact() {
               Message on WhatsApp
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=akshayapriya15112004@gmail.com"
               className="px-8 py-4 bg-blue-700 text-white rounded-lg font-semibold hover:bg-blue-800 hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 flex items-center justify-center gap-2"
             >
               <Mail size={20} />
@@ -101,10 +101,10 @@ export default function Contact() {
         </div>
 
         <footer className="mt-16 pt-8 border-t border-slate-300 text-center text-slate-600">
-          <p className="mb-4">© 2024 Your Name. All rights reserved.</p>
+          <p className="mb-4">© 2026 Akshayapriya S A . All rights reserved.</p>
           <div className="flex justify-center gap-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Akshayapriya15"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-600 transition-colors"
@@ -112,7 +112,7 @@ export default function Contact() {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/your-profile"
+              href="https://linkedin.com/in/akshayapriya-s-a-aba271274"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-600 transition-colors"
@@ -120,7 +120,7 @@ export default function Contact() {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=akshayapriya15112004@gmail.com"
               className="hover:text-blue-600 transition-colors"
             >
               <Mail size={24} />
