@@ -3,27 +3,27 @@ export default function Skills() {
     {
       title: 'Frontend',
       skills: [
-        { name: 'React', level: 90 },
-        { name: 'TypeScript', level: 85 },
-        { name: 'Tailwind CSS', level: 95 },
-        { name: 'Next.js', level: 80 },
+        { name: 'Html', level: 90 },
+        { name: 'css', level: 85 },
+        { name: 'JavaScript', level: 95 },
+        { name: 'React', level: 80 },
       ],
     },
     {
       title: 'Backend',
       skills: [
-        { name: 'Node.js', level: 85 },
-        { name: 'Python', level: 75 },
-        { name: 'PostgreSQL', level: 80 },
-        { name: 'REST APIs', level: 90 },
+        { name: 'Java', level: 90 },
+        { name: 'OOP', level: 75 },
+        { name: 'C', level: 60 },
+        { name: 'MySQL', level: 80 },
       ],
     },
     {
       title: 'Tools & Others',
       skills: [
         { name: 'Git', level: 90 },
-        { name: 'Docker', level: 70 },
-        { name: 'AWS', level: 75 },
+        { name: 'VS Code', level: 70 },
+        { name: 'GitHub', level: 75 },
         { name: 'Figma', level: 85 },
       ],
     },

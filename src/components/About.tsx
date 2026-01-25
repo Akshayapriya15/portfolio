@@ -1,21 +1,21 @@
-import { Code2, Palette, Rocket, Download } from 'lucide-react';
+import { Code2, Database, Terminal, Download } from 'lucide-react';
 
 export default function About() {
   const highlights = [
     {
       icon: <Code2 size={32} />,
-      title: 'Clean Code',
-      description: 'Writing maintainable, scalable, and efficient code is my passion.',
+      title: 'Java Projects',
+      description: 'Developing backend functionality for real-world systems with a strong object-oriented design approach..',
     },
     {
-      icon: <Palette size={32} />,
-      title: 'Beautiful Design',
-      description: 'Creating intuitive and visually stunning user experiences.',
+      icon: <Database size={32} />,
+      title: 'Database Integration',
+      description: 'Designing and managing relational databases using MySQL.',
     },
     {
-      icon: <Rocket size={32} />,
-      title: 'Fast Delivery',
-      description: 'Delivering high-quality projects on time, every time.',
+      icon: <Terminal size={32} />,
+      title: 'API & Tools',
+      description: 'Creating command-line tools and APIs in Java for business logic handling.',
     },
   ];
 

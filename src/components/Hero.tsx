@@ -17,7 +17,8 @@ export default function Hero() {
             Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Akshayapriya</span>
           </h1>
           <p className="text-xl md:text-2xl text-slate-600 mb-8">
-            Full Stack Developer | Designer | Problem Solver
+            Java Backend Developer
+ | Designer | Problem Solver
           </p>
           <p className="text-lg text-slate-500 mb-12 max-w-2xl mx-auto leading-relaxed">
             I craft beautiful, functional web experiences with modern technologies.
