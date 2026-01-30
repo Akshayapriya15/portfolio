@@ -15,7 +15,7 @@ export default function Projects() {
       description: 'Real-time chat application built using the MERN stack with secure user authentication, one-to-one messaging, and persistent chat history stored in MongoDB.',
       image: 'chat.jpg',
       tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io'],
-      github: '#',
+      github: 'https://github.com/Akshayapriya15/chat-app-react-nodejs.git',
       live: '#',
     },
     {
